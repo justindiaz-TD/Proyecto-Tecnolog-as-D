@@ -4,40 +4,38 @@
     <meta charset="UTF-8">
     <title>Prácticas de Histología – UEES</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Fuente UEES -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 
     <style>
-
         body {
             margin: 0;
             background-color: #F2F2F2;
             font-family: 'Montserrat', sans-serif;
         }
 
-        /* HEADER SIMPLE UEES */
-        header {
-            background-color: #041E42; /* azul UEES */
-            padding: 18px 40px;
+        .uees-header {
+            width: 100%;
+            background-color: #8A1538;
+            height: 72px;
             display: flex;
             align-items: center;
-            gap: 20px;
-            color: white;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            padding-left: 40px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.25);
         }
 
-        header img {
-            height: 55px;
+        .uees-header img {
+            height: 48px;
         }
 
-        header h1 {
-            font-size: 28px;
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-top: 50px;
+            margin-bottom: 20px;
             font-weight: 600;
-            margin: 0;
+            color: #041E42;
         }
 
-        /* TARJETAS */
         .menu-container {
             display: flex;
             justify-content: center;
@@ -86,19 +84,17 @@
             font-size: 13px;
             opacity: 0.85;
         }
-
     </style>
 </head>
 
 <body>
 
-<!-- HEADER UEES MINIMALISTA -->
-<header>
+<div class="uees-header">
     <img src="images/logo-uees.png" alt="UEES">
-    <h1>Prácticas de Histología – UEES</h1>
-</header>
+</div>
 
-<!-- TARJETAS -->
+<h1>Prácticas de Histología – UEES</h1>
+
 <div class="menu-container">
 
     <a class="item" href="tejidos.html">
