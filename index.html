@@ -2,73 +2,81 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Histología UEES – Tejidos</title>
+    <title>Prácticas de Histología – UEES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fuente institucional -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
-            background: #e0dedf;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #f2f2f2;
-            text-align: center;
+            background-color: #F2F2F2;
+            font-family: 'Montserrat', sans-serif;
         }
 
-        /* Encabezado estilo UEES */
+        /* HEADER UEES */
         header {
-            padding: 25px 0;
-            color: #791632;
-            font-size: 36px;
-            font-weight: bold;
-            letter-spacing: 2px;
-            border-bottom: 2px solid #1b263b;
+            width: 100%;
+            background-color: #041E42;
+            padding: 18px 0;
+            color: white;
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
         }
 
-        /* Contenedor central */
+        /* Contenedor de tarjetas */
         .menu-container {
             display: flex;
             justify-content: center;
             gap: 40px;
-            padding: 60px 0;
+            padding: 50px 0;
+            flex-wrap: wrap;
         }
 
-        /* Cada tarjeta */
+        /* Tarjetas */
         .item {
-            position: relative;
-            width: 250px;
+            width: 260px;
             height: 200px;
+            border-radius: 15px;
             overflow: hidden;
-            border-radius: 12px;
-            background: #1b263b;
-            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+            background: #ffffff;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.15);
             cursor: pointer;
-            transition: transform .3s ease;
+            transition: all .25s ease;
+            position: relative;
             text-decoration: none;
             color: white;
         }
 
         .item:hover {
-            transform: scale(1.07);
+            transform: translateY(-6px);
+            box-shadow: 0 12px 22px rgba(0,0,0,0.30);
         }
 
         .item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            opacity: .85;
+            opacity: 0.85;
         }
 
         .item-text {
             position: absolute;
             bottom: 0;
             width: 100%;
-            padding: 12px;
+            padding: 15px;
             background: rgba(0,0,0,0.55);
-            font-size: 17px;
+            font-size: 16px;
+            font-weight: 600;
         }
 
         .subtitle {
-            font-size: 14px;
-            opacity: 0.8;
+            font-size: 13px;
+            opacity: 0.85;
         }
     </style>
 </head>
@@ -83,36 +91,36 @@
 
     <!-- TEJIDOS -->
     <a class="item" href="tejidos.html">
-        <img src="images/tejidos.jpg" alt="Tejidos">
+        <img src="images/tejidos.jpg">
         <div class="item-text">
-            <strong>Tejidos</strong><br>
-            <span class="subtitle">Clasificación general</span>
+            Clasificación de los Tejidos<br>
+            <span class="subtitle">Tejidos – General</span>
         </div>
     </a>
 
-    <!-- EPITELIO DE REVESTIMIENTO 1 -->
+    <!-- EPITELIO 1 -->
     <a class="item" href="epitelio1.html">
-        <img src="images/revestimiento1.jpg" alt="Epitelio 1">
+        <img src="images/revestimiento1.jpg">
         <div class="item-text">
-            <strong>Epitelio de Revestimiento I</strong><br>
+            Epitelio de Revestimiento I<br>
             <span class="subtitle">Simples: planos, cúbicos, prismáticos</span>
         </div>
     </a>
 
-    <!-- EPITELIO DE REVESTIMIENTO 2 -->
+    <!-- EPITELIO 2 -->
     <a class="item" href="epitelio2.html">
-        <img src="images/revestimiento2.jpg" alt="Epitelio 2">
+        <img src="images/revestimiento2.jpg">
         <div class="item-text">
-            <strong>Epitelio de Revestimiento II</strong><br>
+            Epitelio de Revestimiento II<br>
             <span class="subtitle">Pseudoestratificado y transición</span>
         </div>
     </a>
 
-    <!-- EPITELIO DE REVESTIMIENTO 3 -->
+    <!-- EPITELIO 3 -->
     <a class="item" href="epitelio3.html">
-        <img src="images/revestimiento3.jpg" alt="Epitelio 3">
+        <img src="images/revestimiento3.jpg">
         <div class="item-text">
-            <strong>Epitelio de Revestimiento III</strong><br>
+            Epitelio de Revestimiento III<br>
             <span class="subtitle">Estratificados</span>
         </div>
     </a>
