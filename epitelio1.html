@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Epitelio de Revestimiento I – UEES</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Epitelios de Revestimiento – UEES</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #000000;
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    #texto-superior {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    #volver {
+        color: cyan;
+        text-decoration: none;
+    }
+
+    img {
+        margin-top: 20px;
+        width: 90%;
+        max-width: 1125px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+</style>
+
 </head>
-<body style="background:#0d1b2a; color:white; font-family:Arial; text-align:center;">
-    <h1>Epitelio de Revestimiento I</h1>
-    <p>Página en construcción.</p>
-    <a href="index.html" style="color:#e1b12c;">Volver al inicio</a>
+
+<body>
+
+<div id="texto-superior">
+    - Para acceder a las imágenes, hacer clic en la preparación -  
+    <a id="volver" href="index.html">Volver al Menú principal</a>
+</div>
+
+<!-- Bandeja -->
+<img src="bandeja01.jpg" width="1125" height="900" usemap="#image-map">
+
+<!-- Mapa de zonas clickeables -->
+<map name="image-map">
+    <area alt="Epitelio plano simple (endotelio)" href="epsimple1.html" coords="53,194,136,455" shape="rect">
+    <area alt="Epitelio plano simple" href="epsimple2.html" coords="157,194,241,453" shape="rect">
+    <area alt="Epitelio plano simple (mesotelio)" href="epsimple3.html" coords="255,194,338,453" shape="rect">
+    <area alt="Epitelio cúbico simple" href="epsimple4.html" coords="360,195,441,453" shape="rect">
+    <area alt="Epitelio cúbico simple" href="epsimple5.html" coords="464,196,545,455" shape="rect">
+    <area alt="Epitelio cúbico simple" href="epsimple6.html" coords="588,196,672,456" shape="rect">
+    <area alt="Epitelio prismático simple" href="epsimple7.html" coords="691,196,774,453" shape="rect">
+    <area alt="Epitelio prismático simple (chapa estriada)" href="epsimple8.html" coords="789,196,872,453" shape="rect">
+    <area alt="Epitelio prismático simple ciliado" href="epsimple9.html" coords="894,195,977,452" shape="rect">
+</map>
+
 </body>
 </html>
